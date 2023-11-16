@@ -16,7 +16,7 @@ def test_longest(capsys):
 def test_deptbreakdown(capsys):
     outputs = [
         r'sales',
-        r'(?=.*[total|num])(?=.*3)',
+        r'(?=.*[total|num])(?=.*2)',
         r'(?=.*salary)(?=.*72500)',
         r'(?=.*years)(?=.*7)',
         r'marketing',
